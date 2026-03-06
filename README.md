@@ -61,19 +61,20 @@ Clone the repository:
 
 Bash
 git clone https://github.com/anikettt-cd/your-repo-name.git
-Navigate to the directory:
 
+Navigate to the directory:
 Bash
 cd your-repo-name
-Create a virtual environment (Recommended):
 
+Create a virtual environment (Recommended):
 Bash
 python -m venv venv
 source venv/bin/activate  # On Windows use: venv\Scripts\activate
-Install required dependencies:
 
+Install required dependencies:
 Bash
 pip install -r requirements.txt
+
 👨‍💻 About the Author
 Aniket Saini 3rd-Year IT Engineering Student Passionate about Full-Stack Development, Machine Learning, and building practical software solutions.
 
