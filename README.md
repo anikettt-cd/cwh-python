@@ -34,6 +34,7 @@ Databases: Connecting Flask to SQLite/PostgreSQL using SQLAlchemy.
 APIs: Building RESTful endpoints.
 
 4. 🛠️ Projects
+
 A collection of practical projects demonstrating the application of the concepts above:
 
 SecureDocs: A full-stack web application for secure document handling. (Add a link to the specific folder here)
@@ -59,7 +60,7 @@ To explore the code or run the projects on your local machine, follow these step
 Clone the repository:
 
 Bash
-git clone https://github.com/yourusername/your-repo-name.git
+git clone https://github.com/anikettt-cd/your-repo-name.git
 Navigate to the directory:
 
 Bash
@@ -76,8 +77,6 @@ pip install -r requirements.txt
 👨‍💻 About the Author
 Aniket Saini 3rd-Year IT Engineering Student Passionate about Full-Stack Development, Machine Learning, and building practical software solutions.
 
-📫 Connect with me: [LinkedIn Profile Link] | [Portfolio Link]
-
 ⭐️ If you found this repository helpful, please consider giving it a star!
 
-Next Step: Would you like me to help write the requirements.txt file for this repository, or draft the specific folder structure to keep all these topics organized?
+
