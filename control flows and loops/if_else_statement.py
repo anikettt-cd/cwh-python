@@ -4,9 +4,9 @@ value2 = int(input("ENTER THE SECOND VALUE: "))
 operater = input("enter the operation you want to perfrom: add , sub , mul , div:")
 
 if operater== "add":
-     print("value1 + value2 = " ,value1 + value2)
+     print("value1 + value2 = "  , value1 + value2)
 elif operater == "sub":
-    print("value1 - value2 = " ,value1 - value2 )
+    print("value1 - value2 = " , value1 - value2 )
 elif operater == "mul":
     print("value1 * value2 = ", value1 * value2)
 elif operater == "div":
