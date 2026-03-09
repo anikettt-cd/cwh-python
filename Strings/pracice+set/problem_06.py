@@ -9,11 +9,12 @@ for char in a:
 
 print(f" there are {sum} vowels in the string")
 
-print(a.count("a"))
-print(a.count("e"))
-print(a.count("i"))
-print(a.count("o"))
-print(a.count("u"))
+str1 = "madam"
+
+if(str1 == str1[::-1]):
+    print("the string is a palindrome")
+else:
+    print("the string is not palindrome")
    
     
 
