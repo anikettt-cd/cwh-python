@@ -1,10 +1,16 @@
-def sum_of_digits(n):
-    if (n ==0):
-       return 0
+import problem_10
 
-    return (n%10 + sum_of_digits(n//10))
 
-print(sum_of_digits(123))
+# def sum_of_digits(n):
+#     if (n ==0):
+#        return 0
+
+#     return (n%10 + sum_of_digits(n//10))
+
+# print(sum_of_digits(123))
+
+
+print(problem_10.is_even(1235))
 
 
 
