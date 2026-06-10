@@ -26,43 +26,49 @@ def repeat(n):
         return wrapper
     return decorators
 
-@repeat(7)
+@repeat(2)
 def say_hello(a):
     (print(f"hello!!! {a}"))
 
-say_hello("harry")    
+say_hello("jagdish") 
+
+@repeat(4)
+def say1_hello(a):
+    (print(f"heyy!!! {a}"))
+
+say1_hello("Aniket")    
 
 
 
 
 
-def repeat(n):
-    def decorators(func):
-        def wrapper(a):
-           for i in range (n):
-               func(a)
-        return wrapper
-    return decorators
+# def repeat(n):
+#     def decorators(func):
+#         def wrapper(a):
+#            for i in range (n):
+#                func(a)
+#         return wrapper
+#     return decorators
 
 
-def say_hello(a):
-    (print(f"hello!!! {a}"))
+# def say_hello(a):
+#     (print(f"hello!!! {a}"))
 
-repeat(7)(say_hello)("harry")
+# repeat(7)(say_hello)("harry")
 
 
 
-def repeat(n):
-    def decorators(func):
-        def wrapper(a):
-           for i in range(n):
-               func(a)
-        return wrapper
-    return decorators
+# def repeat(n):
+#     def decorators(func):
+#         def wrapper(a):
+#            for i in range(n):
+#                func(a)
+#         return wrapper
+#     return decorators
 
-def say_hello(a):
-    print(f"hello!!! {a}")
+# def say_hello(a):
+#     print(f"hello!!! {a}")
 
-our_decorator = repeat(7)
-say_hello_decorated = our_decorator(say_hello)
-say_hello_decorated("harry")
+# our_decorator = repeat(7)
+# say_hello_decorated = our_decorator(say_hello)
+# say_hello_decorated("harry")

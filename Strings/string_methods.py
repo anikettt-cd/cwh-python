@@ -19,3 +19,5 @@ text = "apples, bananas, pineapples , manga"
 print(text.split(","))
 
 print(",".join(['apples', 'bananas', 'pineapples' , 'manga']))
+
+

@@ -18,13 +18,15 @@ class Account:
             
             
         
-acc1 = Account(10000, 123456789)
-print("your account balance is: " , acc1.balance)
-print("your account number is: " , acc1.account)
+# acc1 = Account(10000, 123456789)
+# print("your account balance is: " , acc1.balance)
+# print("your account number is: " , acc1.account)
 
-acc1.debit(2000)        
+# acc1.debit(2000)        
 
-acc1.credit(4000)
+# acc1.credit(4000)
+acc1 = Account(10000000, 1233241252356)
+print("your aaccount balance is " , acc1.balance)
 
 
       
